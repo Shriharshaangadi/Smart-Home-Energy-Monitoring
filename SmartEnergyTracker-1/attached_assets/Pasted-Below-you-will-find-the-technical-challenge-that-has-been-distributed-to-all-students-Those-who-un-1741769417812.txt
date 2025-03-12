@@ -1,0 +1,103 @@
+Below, you will find the technical challenge that has been distributed to all students. Those who undertook the challenge successfully completed it within a two-day timeframe, utilizing LLM tools of their preference. You are likewise authorized to employ any LLM tool, including ChatGPT, and any programming languages or databases. Concentrate on your area of specialization. We are not requiring the development of a complete application, but rather an emphasis on your core expertise. For supplementary areas, LLM assistance is permissible.
+
+Challenge: IoT Application for Smart Home Energy Monitoring
+
+Problem Statement:
+
+Develop a small IoT application for a smart home energy monitoring system. You are welcome to use Large Language Models (LLMs) for reference, but your original work will be assessed by our XAI models.
+
+Frontend Requirements:
+
+·  Display real-time energy consumption data from household appliances (e.g., smart meters, smart plugs).
+
+·  Visualize energy consumption trends using charts (e.g., line graphs, bar charts).
+
+·  Allow users to set energy usage budgets and receive alerts when limits are exceeded.
+
+·  Provide a user-friendly interface for managing user accounts and preferences.
+
+Backend Requirements:
+
+·  Develop a RESTful API to handle data ingestion from:
+
+o Smart home devices (simulated or real) connected to an IoT platform, running on a Kubernetes (k8s) and Docker environment.
+
+o Smart meters (simulated or real) via their respective APIs.
+
+o SAP API endpoints for enterprise system integration (if applicable).
+
+·  Implement secure authentication and authorization using OAuth 2.0.
+
+·  Store and manage data efficiently using a suitable database (e.g., PostgreSQL, MongoDB).
+
+ 
+
+Technical Requirements:
+
+You can choose one of the following development stacks:
+
+·  MERN Stack: MongoDB, Express.js, React, Node.js running on Kubernetes (on the cloud platform of your choice – AWS, GCP, or Azure).
+
+·  Alternative Stack: You may propose an alternative stack, justifying its suitability for this project in a k8s and Docker environment.
+
+·  Frontend:
+
+o Develop the UI using ReactJS.
+
+o Use a suitable CSS framework (e.g., Bootstrap, Material UI) for responsive design and styling.
+
+o Use a suitable charting library (e.g., Chart.js, D3.js) for data visualization.
+
+·  Backend:
+
+o Develop RESTful APIs using Java Spring Boot.
+
+o Implement data storage and retrieval using a suitable database.
+
+o Integrate with an IoT platform (e.g., AWS IoT Core, Azure/GCP IoT Core) or simulate device data.
+
+o Implement OAuth 2.0 for user authentication and authorization.
+
+ 
+
+Evaluation Criteria:
+
+·  Technical Proficiency:
+
+o Demonstrated understanding of frontend technologies (ReactJS, CSS frameworks, charting libraries).
+
+o Proficiency in Java, Spring Boot, and RESTful API design.
+
+o Experience with database technologies (SQL/NoSQL).
+
+o Understanding of IoT concepts and integration with IoT platforms.
+
+o Knowledge of k8s, authentication, and authorization mechanisms (OAuth 2.0).
+
+·  Problem-Solving Skills:
+
+o Ability to design a scalable and efficient architecture.
+
+o Ability to handle data from multiple sources and formats.
+
+o Ability to troubleshoot and debug effectively.
+
+·  Communication and Collaboration:
+
+o Clear communication of technical concepts and design decisions (through code comments and a brief README file).
+
+For AI Students:
+
+Once the application is developed, please attempt to connect it with any smart devices you have at home, with the assistance of the full-stack developer/ instrumentation engg on your team. Generate data from these devices. Following this, we will connect further with our data, which you can then use to create AI models. Before this stage, we encourage you to contribute to other areas of the project, taking responsibility for a specific layer each.
+
+Don’t worry you AI skills will be tested once you get basic app ready.
+
+ 
+
+Bonus Points:
+
+·  Implement machine learning models to predict energy consumption and provide personalized energy-saving recommendations.
+
+·  Integrate with voice assistants (e.g., Alexa, Google Assistant) for voice control.
+
+·  Develop a mobile application for remote monitoring and control.
